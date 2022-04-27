@@ -36,6 +36,7 @@ onSignInSubmit=()=>{
         confirmationResult.confirm(code).then(function (result) {
   // User signed in successfully.
   var user = result.user;
+  
   // ...
   console.log("user is signed in")
 }).catch(function (error) {
